@@ -8,13 +8,15 @@ function All() {
   return (
     <>
       <Header />
-      <Hero
-        title="Our Works"
-        description="Discover a portfolio of visually stunning and strategically crafted digital projects that showcase our creativity and expertise."
-        image="/images/services-cta.jpg"
-        showButton={false}
-      />
-      <Body />
+      <main className="main-page">
+        <Hero
+          title="Our Works"
+          description="Discover a portfolio of visually stunning and strategically crafted digital projects that showcase our creativity and expertise."
+          image="/images/services-cta.jpg"
+          showButton={false}
+        />
+        <Body />
+      </main>
       <footer className="footer-work">
         <Hero
           title="Let us Bring your Ideas to Life in the Digital World."

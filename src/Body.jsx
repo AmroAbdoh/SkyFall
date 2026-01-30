@@ -15,7 +15,7 @@ function Card({ title, imgSrc, semiTitle, url, desc }) {
             </a>
           </div>
           <a className="card-icon" href="#">
-            <img src="/images/Icon.png" />
+            <img src="/images/Icon.svg" />
           </a>
         </main>
         <p>{desc}</p>
