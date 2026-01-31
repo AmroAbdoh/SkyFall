@@ -4,7 +4,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Body from "./Body";
 
-function All() {
+function App() {
   return (
     <>
       <Header />
@@ -23,7 +23,7 @@ function All() {
           description="No matter which services you choose, we are committed to delivering exceptional results that exceed your expectations. Our multidisciplinary team works closely together to ensure seamless collaboration and a unified vision for your digital product."
           buttonText="Start Project"
           buttnoHref="#"
-          changeImageLaptop={false}
+          isLaptop={false}
         />
       </footer>
     </>
@@ -31,4 +31,4 @@ function All() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<All />);
+root.render(<App />);

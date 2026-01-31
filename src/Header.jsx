@@ -1,25 +1,13 @@
-// Header.js
 import { useState } from "react";
-import "./index.css"; // Import styles if needed
+import "./index.css";
+import Button from "./Button";
 
-// Title component
 const Title = () => <div className="logo">SkyFall Enterprises</div>;
 
-// Button component
-const Button = ({ text, href }) => {
-  return (
-    <a href={href} className="button">
-      {text}
-    </a>
-  );
-};
-
-// NavbarItem component
 function NavbarItem({ Text, className }) {
   return (
     <a className={`navbar-link ${className || ""}`} href="#">
-      {" "}
-      {Text}{" "}
+      {Text}
     </a>
   );
 }
@@ -40,7 +28,7 @@ function Header() {
         <NavbarItem Text="Careers" />
       </nav>
 
-      <Button text={"Contact Us"} href={"#"} />
+      <Button text={"Contact Us"} buttonURL={"#"} isMobile={true} />
 
       <div className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
         <img src="images/Vector (Stroke).png" alt="&#9776;" />
@@ -49,5 +37,4 @@ function Header() {
   );
 }
 
-export { Button };
 export default Header;
