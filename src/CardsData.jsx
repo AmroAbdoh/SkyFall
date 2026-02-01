@@ -17,7 +17,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/DreamHouseRealty.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -393,7 +393,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -401,7 +401,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -409,7 +409,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -417,7 +417,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -425,7 +425,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -433,7 +433,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -441,7 +441,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -449,7 +449,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -457,7 +457,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -465,7 +465,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -473,7 +473,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -481,7 +481,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -489,7 +489,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -497,7 +497,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
@@ -505,7 +505,7 @@ const cardsData = [
   },
   {
     title: "Web Portal For Real Estate Listings",
-    imageUrl: "/images/WanderWise.png",
+    imageUrl: "/images/EduConnect.png",
     subHeading: "Dream House Realty",
     linkUrl: "https:/www.dreamhomesrealty.com",
     description:
