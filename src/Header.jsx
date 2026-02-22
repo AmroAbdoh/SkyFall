@@ -1,14 +1,15 @@
 import { useState } from "react";
 import "./index.css";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Title = () => <div className="logo">SkyFall Enterprises</div>;
 
-function NavbarItem({ Text, className }) {
+function NavbarItem({ Text, className , href}) {
   return (
-    <a className={`navbar-link ${className || ""}`} href="#">
+    <Link to={href} className={`navbar-link ${className || ""}`}>
       {Text}
-    </a>
+    </Link>
   );
 }
 
@@ -22,9 +23,9 @@ function Header() {
       <nav className={`navbar ${menuOpen ? "open" : ""}`}>
         <NavbarItem Text="Home" />
         <NavbarItem Text="Services" />
-        <NavbarItem Text="Work" className="active" />
+        <NavbarItem Text="Work" className="active" href="/work" />
         <NavbarItem Text="Procces" />
-        <NavbarItem Text="About" />
+        <NavbarItem Text="About" href="/about" />
         <NavbarItem Text="Careers" />
       </nav>
 

@@ -1,0 +1,126 @@
+.info-section {
+  margin: 0px var(--desktop-padding);
+  border: var(--secondary-color) solid 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-top: 100px;
+}
+.info-title {
+  /* border: var(--secondary-color) solid 1px; */
+
+  padding: 0 50px;
+  font-size: 58px;
+  color: #42159d;
+}
+
+.info-content {
+  border: var(--secondary-color) solid 1px;
+  padding: 100px 50px;
+  color: var(--secondary-font-color);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+.has-title {
+  padding: 100px 0;
+}
+.info-content-title {
+  color: var(--primary-font-color);
+  display: flex;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  padding: 0 0 26px 10px;
+  font-size: 38px;
+}
+
+.info-content p {
+  font-size: 18px;
+  white-space: pre-wrap;
+  font-weight: 400;
+  /* background-color: antiquewhite; */
+  font-weight: bold;
+}
+
+.info-content img {
+  width: 500px;
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  background-color: var(--secondary-color);
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .info-section {
+    margin: 0px var(--laptop-padding) 0;
+  }
+  .info-content img {
+    width: 50%;
+  }
+  .info-title {
+    font-size: 48px;
+  }
+  .info-section {
+    gap: 80px;
+  padding-top: 80px;
+
+  }
+.info-content {
+  padding: 80px 40px;
+}
+.has-title {
+  padding: 80px 0;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .info-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 5%;
+
+  }
+  .info-content img {
+    width: 100%;
+  }
+    .info-title {
+    font-size: 2.5rem; /* ~40px */
+    padding: 0 5%;
+
+  }
+
+  .info-content-title {
+    font-size: 2rem; /* ~32px */
+    /* padding: 0 5%; */
+  padding: 0 0 26px ;
+
+
+  }
+
+  .has-title {
+  padding: 7% 0;
+}
+}
+
+@media screen and (max-width: 390px) {
+  .info-title {
+    font-size: 38px;
+  }
+  .info-content p {
+    font-size: 14px;
+  }
+  .info-content {
+  padding: 40px 24px;
+}
+}
