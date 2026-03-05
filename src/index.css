@@ -16,9 +16,9 @@
 body {
   background-color: var(--back-ground-color);
   color: var(--primary-font-color);
-  font-family: "Playfair Display";
   font-size: 18px;
   line-height: 150%;
+  font-family: 'Barlow', sans-serif;
 }
 .main-page {
   padding-top: 100px;
@@ -38,6 +38,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 100;
+  font-family: "Playfair Display";
 }
 .header .logo {
   cursor: default;
@@ -72,7 +73,6 @@ body {
   border-radius: 6px;
 }
 @media screen and (max-width: 1440px) {
-
   .header {
     padding: 20px var(--laptop-padding);
   }

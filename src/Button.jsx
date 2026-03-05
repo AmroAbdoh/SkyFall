@@ -1,13 +1,21 @@
 import "./button.css"; 
+import { Link } from "react-router-dom";
 
-function Button({ text, buttonURL, isMobile = false }) {
+function Button({ text, buttonURL, isMobile = false, type = "link" }) {
+  const className = `button ${isMobile ? "mobile-button" : ""}`;
+
+  if (type === "submit") {
+    return (
+      <button type="submit" className={className}>
+        {text}
+      </button>
+    );
+  }
+
   return (
-    <a
-      href={buttonURL}
-      className={`button ${isMobile ? "mobile-button" : ""}`}
-    >
+    <Link to={buttonURL} className={className}>
       {text}
-    </a>
+    </Link>
   );
 }
 

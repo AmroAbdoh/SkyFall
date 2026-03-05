@@ -29,7 +29,7 @@ function Header() {
         <NavbarItem Text="Careers" />
       </nav>
 
-      <Button text={"Contact Us"} buttonURL={"#"} isMobile={true} />
+      <Button text={"Contact Us"} buttonURL={"/contact"} isMobile={true} />
 
       <div className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
         <img src="images/Vector (Stroke).png" alt="&#9776;" />

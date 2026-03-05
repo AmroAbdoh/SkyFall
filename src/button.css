@@ -1,7 +1,9 @@
 .button {
   background-color: var(--primary-purple);
   border-radius: 10px;
+  border: none;
   color: var(--primary-font-color);
+  font: inherit;
   cursor: pointer;
   padding: 16px 24px;
   text-decoration: none;

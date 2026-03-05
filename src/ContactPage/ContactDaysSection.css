@@ -1,0 +1,137 @@
+.contact-ways {
+  margin: 0px var(--desktop-padding);
+  border: var(--secondary-color) solid 1px;
+}
+
+.contact-ways-container {
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-days {
+  flex: 1;
+
+  padding: 50px 80px 50px 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.contact-days p {
+  color: #e6e6e6;
+  font-size: 22px;
+}
+.contact-days span {
+  margin-left: 12px;
+  padding: 12px 24px;
+  background: var(--secondary-color);
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.contact-social {
+  flex: 1;
+  margin-left: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.social-wrapper {
+  align-items: center;
+  border: var(--secondary-color) solid 1px;
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  padding: 15px 15px 15px 25px;
+}
+
+.social-title {
+  color: #e6e6e6;
+  margin-right: 18px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: all 0.25s ease-in;
+  border: 1px solid;
+  padding: 20px;
+  border-image-source: linear-gradient(
+    180deg,
+    #2e2e2e 0%,
+    rgba(46, 46, 46, 0) 100%
+  );
+}
+
+@media screen and (max-width: 1440px) {
+  .contact-ways {
+    margin: 0px var(--laptop-padding) 20px;
+  }
+  .contact-days {
+    padding-right: 7%;
+  }
+  .contact-social {
+    margin-left: 7%;
+  }
+  .contact-days p,
+  .contact-days span,
+  .social-title {
+    font-size: 16px;
+  }
+  .contact-days span {
+    padding: 10px 20px;
+  }
+  .social-wrapper {
+    padding: 10px 10px 10px 20px;
+    border-radius: 8px;
+  }
+  .social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .contact-ways-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .contact-days {
+    border: none;
+    padding-right: 0;
+    justify-content: center;
+    border-bottom: var(--secondary-color) solid 1px;
+    width: 100%;
+  }
+  .contact-social {
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    
+  }
+  .social-wrapper{
+    border: none;
+    flex-direction: column;
+  }
+}
