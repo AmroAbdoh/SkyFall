@@ -3,6 +3,7 @@ import Hero from "../Hero";
 import ContactData from "./ContactData";
 import ContactDaysSection from "./ContactDaysSection";
 import ContactForm from "./ContactForm";
+import FAQ from "./FAQ";
 
 
 function Contact() {
@@ -22,6 +23,7 @@ function Contact() {
       <ContactData />
       <ContactForm />
       <ContactDaysSection />
+      <FAQ />
     </>
   );
 }
