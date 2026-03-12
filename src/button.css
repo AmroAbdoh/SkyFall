@@ -11,10 +11,20 @@
   transition:
     all 0.3s ease,
     box-shadow 0.3s ease;
+    text-align: center;
 }
 
 .button:hover {
   background-color: var(--secondary-purple);
+}
+
+.grey{
+  border: var(--secondary-color) solid 1px;
+  background-color: var(--back-ground-color);
+}
+
+.grey:hover{
+  background-color: #1b1b1b;
 }
 
 @media screen and (max-width: 1440px) {

@@ -1,15 +1,20 @@
 import { useState } from "react";
 import "./index.css";
 import Button from "./Button";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Title = () => <div className="logo">SkyFall Enterprises</div>;
 
-function NavbarItem({ Text, className , href}) {
+function NavbarItem({ Text, className, href }) {
   return (
-    <Link to={href} className={`navbar-link ${className || ""}`}>
+    <NavLink
+      to={href}
+      className={({ isActive }) =>
+        `navbar-link ${className || ""} ${isActive ? "active" : ""}`
+      }
+    >
       {Text}
-    </Link>
+    </NavLink>
   );
 }
 
@@ -21,12 +26,12 @@ function Header() {
       <Title />
 
       <nav className={`navbar ${menuOpen ? "open" : ""}`}>
-        <NavbarItem Text="Home" />
-        <NavbarItem Text="Services" />
-        <NavbarItem Text="Work" className="active" href="/work" />
-        <NavbarItem Text="Procces" />
+        <NavbarItem Text="Home" href="/" />
+        <NavbarItem Text="Services" href="/services" />
+        <NavbarItem Text="Work" href="/work" />
+        <NavbarItem Text="Procces" href="/process" />
         <NavbarItem Text="About" href="/about" />
-        <NavbarItem Text="Careers" />
+        <NavbarItem Text="Careers" href="/careers" />
       </nav>
 
       <Button text={"Contact Us"} buttonURL={"/contact"} isMobile={true} />

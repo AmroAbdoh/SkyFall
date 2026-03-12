@@ -1,8 +1,8 @@
 import "./button.css"; 
 import { Link } from "react-router-dom";
 
-function Button({ text, buttonURL, isMobile = false, type = "link" }) {
-  const className = `button ${isMobile ? "mobile-button" : ""}`;
+function Button({ text, buttonURL, isMobile = false, type = "link" , isPurple = true }) {
+  const className = `button ${isMobile ? "mobile-button" : ""} ${isPurple ? "" : "grey"}`;
 
   if (type === "submit") {
     return (

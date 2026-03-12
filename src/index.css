@@ -46,7 +46,7 @@ body {
 .navbar {
   align-items: center;
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
 }
 .navbar-link {
   color: var(--primary-font-color);
@@ -54,12 +54,17 @@ body {
   position: relative;
   position: relative;
   text-decoration: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  /* padding: 7px 12px; */
+  
+
 }
 .navbar-link.active {
   background-color: var(--secondary-color);
   border-radius: 8px;
   font-weight: 600;
-  padding: 14px 24px;
+  /* padding: 14px 24px; */
 }
 
 .burger-menu {

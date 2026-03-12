@@ -1,0 +1,90 @@
+.home-hero {
+  margin: 100px var(--desktop-padding) 0;
+  border: var(--secondary-color) solid 1px;
+  padding: 12%;
+  background-image: url("../../public/images/HomeHeader.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* height: 800px; */
+  position: relative;
+}
+
+.home-hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  /* background-color: yellowgreen; */
+}
+
+.home-hero-title h1 {
+  font-size: clamp(32px, 6vw, 68px);
+  text-align: center;
+  line-height: 1;
+}
+
+.home-hero-section {
+  padding: 3% 5%;
+  display: flex;
+  gap: 5px;
+  border: var(--secondary-color) solid 1px;
+  background-color: #1b1b1b;
+  border-radius: 12px;
+  color: var(--secondary-font-color);
+  align-items: center;
+  /* font-size: 22px; */
+  font-size: clamp(16px, 6vw, 22px);
+
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.home-hero-section span {
+  color: white;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+  cursor: default;
+}
+
+.home-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.trusted-badge {
+  position: absolute;
+  
+  bottom: -34px;
+  background-color: var(--back-ground-color);
+  padding: 2% 3%;
+  border: var(--secondary-color) solid 1px;
+  border-radius: 100px;
+  font-size: clamp(16px, 6vw, 18px);
+
+}
+
+@media screen and (max-width: 1440px) {
+  .home-hero {
+    margin: 100px var(--laptop-padding) 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home-hero-section span {
+    all: unset;
+  }
+
+  .home-hero-section {
+    padding: 18px 20px;
+  }
+}
