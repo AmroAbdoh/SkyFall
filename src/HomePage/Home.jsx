@@ -3,6 +3,8 @@ import HomeHero from "./HomeHero"
 import Companies from "./Companies"
 import HomeServices from "./HomeServices"
 import Success from "./Success"
+import WhyChoose from "./WhyChoose"
+import FAQ from "../ContactPage/FAQ"
 // import Hero from "../Hero"
 
 
@@ -15,6 +17,8 @@ function Home() {
       <Companies />
       <HomeServices />
       <Success />
+      <WhyChoose />
+      <FAQ />
     </>
   )
 }

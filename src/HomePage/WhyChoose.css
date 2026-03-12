@@ -1,0 +1,21 @@
+.why-choose {
+  margin: 0 var(--desktop-padding) 0;
+  border: var(--secondary-color) solid 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+@media screen and (max-width: 1440px) {
+  .why-choose {
+    margin: 0px var(--laptop-padding);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .why-choose {
+    display: flex;
+    flex-direction: column;
+  }
+}

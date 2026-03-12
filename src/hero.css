@@ -40,6 +40,9 @@
   line-height: 1.25;
   margin-bottom: 15px;
 }
+.remove-margin{
+  margin-top: 0;
+}
 @media screen and (max-width: 1440px) {
   .hero {
     background-image: url("../public/images/services-hero.jpg");

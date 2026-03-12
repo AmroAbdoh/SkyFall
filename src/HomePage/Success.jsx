@@ -42,6 +42,8 @@ function Success() {
         description="What our Clients says About us"
         image="/images/services-cta.jpg"
         showButton={false}
+        isSpaceUp={false}
+
       />
       <div className="success">
         <SuccessMessage

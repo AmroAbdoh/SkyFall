@@ -125,15 +125,14 @@
   }
 }
 @media screen and (max-width: 900px) {
-.success {
+  .success {
     display: flex;
     flex-direction: column;
-}
+  }
 }
 
 @media screen and (max-width: 600px) {
-.open-website{
+  .open-website {
     display: none;
-    
-}
+  }
 }

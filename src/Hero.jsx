@@ -3,7 +3,7 @@ import "./hero.css";
 import Button from "./Button";
 
 
-function Hero({ title, description, showButton = true, buttonText, buttonHref , isLaptop = true}) {
+function Hero({ title, description, showButton = true, buttonText, buttonHref , isLaptop = true , isSpaceUp = true}) {
   const [image, setImage] = useState("/images/services-cta.jpg"); // default desktop
 
   useEffect(() => {
@@ -24,7 +24,7 @@ function Hero({ title, description, showButton = true, buttonText, buttonHref , 
   }, []);
 
   return (
-    <section className="hero" style={{ backgroundImage: `url(${image})` }}>
+    <section className={`hero ${isSpaceUp ? "" : "remove-margin"}`} style={{ backgroundImage: `url(${image})` }}>
       
       <div className="hero-content">
         <h1>{title}</h1>
