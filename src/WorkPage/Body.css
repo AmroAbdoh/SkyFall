@@ -7,32 +7,7 @@
   font-family: "Barley";
   margin: 0px var(--desktop-padding);
 }
-.body-title {
-  padding: 6% 50px 3%;
-}
-.body-title-intro {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding-right: 15%;
-}
-.body-title h1 {
-  font-size: 48px;
-}
-.body-title p {
-  font-size: 18px;
-}
-.body-title div {
-  align-items: center;
-  background-color: var(--secondary-color);
-  border-radius: 8px;
-  display: flex;
-  font-size: 22px;
-  height: 50px;
-  margin-top: 50px;
-  max-width: 410px;
-  padding: 12px 14px;
-}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -139,7 +114,6 @@
   gap: 8px;
   justify-content: center;
   margin: 30px var(--desktop-padding);
-  
 }
 
 .cards-controls button {
@@ -157,7 +131,6 @@
   padding: 10px;
   transition: border ease-in 0.2s;
   width: 50px;
-  
 
   /* font-family: inherit; */
   font-size: 18px;
@@ -174,7 +147,7 @@
 }
 .dots {
   padding: 0 6px;
-  cursor: default;  
+  cursor: default;
   width: 30px;
   display: flex;
   align-items: center;
@@ -182,41 +155,21 @@
   /* margin-top: auto; */
   bottom: 0;
 }
-.dots img{
-  width: 100%;
-}
-.arrow-control
-{
+.dots img {
   width: 100%;  
+}
+.arrow-control {
+  width: 100%;
   transform: scale(1.2);
 }
-.left
-{
+.left {
   rotate: 180deg;
 }
 @media screen and (max-width: 1440px) {
   .main-work {
     margin: 0 var(--laptop-padding);
   }
-  .body-title {
-    padding: var(--laptop-padding) 40px 40px;
-  }
-  .body-title-intro {
-    gap: 10px;
-    padding-right: 20%;
-  }
-  .body-title h1 {
-    font-size: 38px;
-  }
-  .body-title p {
-    font-size: 16px;
-  }
-  .body-title div {
-    border-radius: 6px;
-    font-size: 18px;
-    padding: 10px;
-    width: 100%;
-  }
+
   .cards-grid {
     grid-template-columns: repeat(2, minmax(520px, 1fr));
   }
@@ -250,10 +203,9 @@
     font-size: 16px;
   }
   .cards-controls {
-        margin: 25px var(--laptop-padding);
-
+    margin: 25px var(--laptop-padding);
   }
-  .cards-controls button{    
+  .cards-controls button {
     font-size: 12px;
   }
 }
@@ -267,21 +219,7 @@
     margin: 0 16px 16px;
     padding: 40px 0 0;
   }
-  .body-title {
-    padding: 0 16px 16px;
-  }
-  .body-title h1 {
-    font-size: 28px;
-    padding-right: 0;
-  }
-  .body-title p {
-    font-size: 14px;
-    padding-right: 0;
-  }
-  .body-title div {
-    font-size: 16px;
-    width: 80%;
-  }
+
   .card {
     gap: 20px;
   }
@@ -304,5 +242,4 @@
     padding: 10px;
     width: 46px;
   }
-
 }

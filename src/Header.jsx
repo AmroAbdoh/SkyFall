@@ -39,7 +39,7 @@ function Header() {
       <div className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
         <img src="images/Vector (Stroke).png" alt="&#9776;" />
       </div>
-    </header>
+    </header> 
   );
 }
 

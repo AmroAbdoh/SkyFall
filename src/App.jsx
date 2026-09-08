@@ -1,6 +1,8 @@
 import Work from "./WorkPage/Work"
 import About from "./AboutPage/About"
 import Contact from "./ContactPage/Contact"
+import Services from "./ServicesPage/Services"
+
 import { BrowserRouter , Routes , Route, Navigate } from "react-router-dom"
 import Home from "./HomePage/Home"
 
@@ -14,6 +16,7 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
     </BrowserRouter>
   )

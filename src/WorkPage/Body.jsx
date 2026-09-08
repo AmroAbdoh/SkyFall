@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, forwardRef } from "react";
 import "./Body.css";
 import cardsData from "./CardsData";
+import SectionHeader from "../SectionHeader";
 
 const Card = forwardRef(
   ({ title, imageUrl, subHeading, linkUrl, description }, ref) => (
@@ -123,18 +124,13 @@ function Body() {
   return (
     <>
       <div className="main-work">
-        <article className="body-title">
-          <section className="body-title-intro">
-            <h1>At SkyFall</h1>
-            <p>
-              We have had the privilege of working with a diverse range of
-              clients and delivering exceptional digital products that drive
-              success.
-            </p>
-          </section>
+        <SectionHeader
+          title="At SkyFall"
+          description="We have had the privilege of working with a diverse range of clients and delivering exceptional digital products that drive success."
+          subtitle="Here are examples of our notable works:"
+        />
 
-          <div>Here are examples of our notable works:</div>
-        </article>
+        
 
         <div className="cards-grid">
           {visibleCards.map((card, i) => (
