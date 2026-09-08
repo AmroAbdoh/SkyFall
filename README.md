@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+# SkyFall Enterprises Website Mimic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a front-end recreation of the SkyFall Enterprises website, built as a practical training exercise and UI task inspired by the company’s brand and structure. The goal was to practice building a polished, responsive company website using React while recreating the overall look and feel of the SkyFall web experience.
+
+This project is intended as a front-end mimic and learning exercise, not an official company website or production deployment of the original brand.
+
+## Project Overview
+
+SkyFall Enterprises is presented as a modern technology and digital services company, and this project recreates that identity through:
+
+- a landing page with strong visual hierarchy
+- service and business information sections
+- company value and trust-building content
+- work showcase sections
+- contact and FAQ areas
+- a responsive web layout suitable for desktop and mobile screens
+
+## Features
+
+- Responsive one-page website design
+- React-based component architecture
+- Reusable UI sections and cards
+- Modern landing page styling
+- Contact form and information blocks
+- Service, work, about, and company detail sections
+- Clean and lightweight front-end structure
+
+## Tech Stack
+
+- React
+- JavaScript
+- CSS Modules / custom CSS
+- Create React App
+
+## Project Structure
+
+```bash
+skyfall/
+├── public/
+├── src/
+│   ├── AboutPage/
+│   ├── ContactPage/
+│   ├── HomePage/
+│   ├── ServicesPage/
+│   ├── WorkPage/
+│   ├── App.jsx
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── index.jsx
+│   └── ...
+├── package.json
+├── README.md
+└── build/
+```
+
+## Getting Started
+
+1. Clone the repository
+2. Navigate to the project folder:
+
+```bash
+cd skyfall
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+5. Open the browser at:
+
+```text
+http://localhost:3000
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+```bash
+npm start
+```
 
-### `npm start`
+Runs the app in development mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm run build
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Creates a production-ready build.
 
-### `npm test`
+```bash
+npm test
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the test suite.
 
-### `npm run build`
+```bash
+npm run deploy
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deploys the app to GitHub Pages using the configured deployment setup.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is set up for deployment using GitHub Pages.
 
-### `npm run eject`
+The repository already includes the deployment script configuration through `gh-pages` in `package.json`, so you can publish the app with:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run deploy
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This command runs the production build first and then deploys the generated static files to the GitHub Pages hosting target.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If needed, update the project homepage URL in the package configuration before publishing:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```json
+"homepage": "https://your-username.github.io/skyfall/"
+```
 
-## Learn More
+After deployment, the website will be available at a GitHub Pages URL such as:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```text
+https://your-username.github.io/skyfall/
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Notes
 
-### Code Splitting
+This project was created as a learning and training task focused on front-end implementation and UI mimicry for the SkyFall company brand. It demonstrates practical React and CSS work and serves as a portfolio-style exercise.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for educational and portfolio purposes.
